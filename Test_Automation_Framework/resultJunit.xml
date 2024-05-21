@@ -1,0 +1,157 @@
+<testsuites id="" name="" tests="33" failures="1" skipped="0" errors="0" time="81.79110399999999">
+<testsuite name="CartFunctionality.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="chromium" tests="2" failures="0" skipped="0" time="17.218" errors="0">
+<testcase name="ManageCartFunctionality" classname="CartFunctionality.spec.js" time="7.321">
+</testcase>
+<testcase name="VerifyEnrollFuntionality" classname="CartFunctionality.spec.js" time="9.897">
+<system-out>
+<![CDATA[Order placed successfully: Your order id is order-lgjn4
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="HomePageFunctionality.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="chromium" tests="3" failures="0" skipped="0" time="17.274" errors="0">
+<testcase name="verifyHomepageFunctionality" classname="HomePageFunctionality.spec.js" time="6.514">
+</testcase>
+<testcase name="verifyAddProductsFunctionality" classname="HomePageFunctionality.spec.js" time="7.029">
+</testcase>
+<testcase name="verifyRemovefromCartFunctionality" classname="HomePageFunctionality.spec.js" time="3.731">
+</testcase>
+</testsuite>
+<testsuite name="LoginUser.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="chromium" tests="4" failures="0" skipped="0" time="8.736" errors="0">
+<testcase name="LoginUserWithValidDetails" classname="LoginUser.spec.js" time="1.835">
+</testcase>
+<testcase name="LoginUserWithInValidDetails" classname="LoginUser.spec.js" time="2.082">
+</testcase>
+<testcase name="LoginUserWithSpecialCharacters" classname="LoginUser.spec.js" time="1.411">
+</testcase>
+<testcase name="SignOutFunctionality" classname="LoginUser.spec.js" time="3.408">
+</testcase>
+</testsuite>
+<testsuite name="NewUserTest.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.509" errors="0">
+<testcase name="NewUserSignUpWithValidDetails" classname="NewUserTest.spec.js" time="3.13">
+</testcase>
+<testcase name="NewUserSignUpwithInvalidDetails" classname="NewUserTest.spec.js" time="3.379">
+</testcase>
+</testsuite>
+<testsuite name="CartFunctionality.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="firefox" tests="2" failures="0" skipped="0" time="29.883" errors="0">
+<testcase name="ManageCartFunctionality" classname="CartFunctionality.spec.js" time="14.629">
+</testcase>
+<testcase name="VerifyEnrollFuntionality" classname="CartFunctionality.spec.js" time="15.254">
+<system-out>
+<![CDATA[Order placed successfully: Your order id is order-lx522
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="HomePageFunctionality.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="firefox" tests="3" failures="0" skipped="0" time="22.179" errors="0">
+<testcase name="verifyHomepageFunctionality" classname="HomePageFunctionality.spec.js" time="8.25">
+</testcase>
+<testcase name="verifyAddProductsFunctionality" classname="HomePageFunctionality.spec.js" time="8.437">
+</testcase>
+<testcase name="verifyRemovefromCartFunctionality" classname="HomePageFunctionality.spec.js" time="5.492">
+</testcase>
+</testsuite>
+<testsuite name="LoginUser.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="firefox" tests="4" failures="0" skipped="0" time="13.647" errors="0">
+<testcase name="LoginUserWithValidDetails" classname="LoginUser.spec.js" time="3.219">
+</testcase>
+<testcase name="LoginUserWithInValidDetails" classname="LoginUser.spec.js" time="3.26">
+</testcase>
+<testcase name="LoginUserWithSpecialCharacters" classname="LoginUser.spec.js" time="2.825">
+</testcase>
+<testcase name="SignOutFunctionality" classname="LoginUser.spec.js" time="4.343">
+</testcase>
+</testsuite>
+<testsuite name="NewUserTest.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="firefox" tests="2" failures="0" skipped="0" time="9.866" errors="0">
+<testcase name="NewUserSignUpWithValidDetails" classname="NewUserTest.spec.js" time="4.827">
+</testcase>
+<testcase name="NewUserSignUpwithInvalidDetails" classname="NewUserTest.spec.js" time="5.039">
+</testcase>
+</testsuite>
+<testsuite name="CartFunctionality.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="webkit" tests="2" failures="0" skipped="0" time="24.686" errors="0">
+<testcase name="ManageCartFunctionality" classname="CartFunctionality.spec.js" time="10.482">
+</testcase>
+<testcase name="VerifyEnrollFuntionality" classname="CartFunctionality.spec.js" time="14.204">
+<system-out>
+<![CDATA[Order placed successfully: Your order id is order-epifp
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="HomePageFunctionality.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="webkit" tests="3" failures="1" skipped="0" time="32.269" errors="0">
+<testcase name="verifyHomepageFunctionality" classname="HomePageFunctionality.spec.js" time="8.174">
+</testcase>
+<testcase name="verifyAddProductsFunctionality" classname="HomePageFunctionality.spec.js" time="9.13">
+</testcase>
+<testcase name="verifyRemovefromCartFunctionality" classname="HomePageFunctionality.spec.js" time="14.965">
+<failure message="HomePageFunctionality.spec.js:29:5 verifyRemovefromCartFunctionality" type="FAILURE">
+<![CDATA[  [webkit] › HomePageFunctionality.spec.js:29:5 › verifyRemovefromCartFunctionality ────────────────
+
+    Error: page.$$: Unable to adopt element handle from a different document
+
+       at ..\pages\HomePage.js:28
+
+      26 |         for(const course of courses){
+      27 |             await this.page.waitForSelector(this.products);
+    > 28 |             const products = await this.page.$$(this.products);
+         |                                              ^
+      29 |             for(let i=0; i<products.length;i++){
+      30 |                 const prod = products[i];
+      31 |                 const text = await prod.textContent();
+
+        at HomePage.addProductstoCart (D:\PlayAutomation\pages\HomePage.js:28:46)
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: locator.click: Target page, context or browser has been closed
+    Call log:
+      - waiting for locator('//button[text()=\'Add to Cart\']').nth(3)
+      -   locator resolved to <button>…</button>
+      - attempting click action
+      -   waiting for element to be visible, enabled and stable
+
+
+       at ..\pages\HomePage.js:36
+
+      34 |                     const addToCartButton = this.page.locator(this.addToCartButton).nth(i);
+      35 |                     await addToCartButton.waitFor({ state: 'visible' });
+    > 36 |                     await addToCartButton.click();
+         |                                           ^
+      37 |                     break;
+      38 |                 }
+      39 |             }
+
+        at HomePage.addProductstoCart (D:\PlayAutomation\pages\HomePage.js:36:43)
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\HomePageFunctionality-verifyRemovefromCartFunctionality-webkit-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\HomePageFunctionality-verifyRemovefromCartFunctionality-webkit-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\HomePageFunctionality-verifyRemovefromCartFunctionality-webkit-retry1\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="LoginUser.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="webkit" tests="4" failures="0" skipped="0" time="21.248" errors="0">
+<testcase name="LoginUserWithValidDetails" classname="LoginUser.spec.js" time="4.998">
+</testcase>
+<testcase name="LoginUserWithInValidDetails" classname="LoginUser.spec.js" time="4.675">
+</testcase>
+<testcase name="LoginUserWithSpecialCharacters" classname="LoginUser.spec.js" time="4.182">
+</testcase>
+<testcase name="SignOutFunctionality" classname="LoginUser.spec.js" time="7.393">
+</testcase>
+</testsuite>
+<testsuite name="NewUserTest.spec.js" timestamp="2024-05-15T11:38:05.720Z" hostname="webkit" tests="2" failures="0" skipped="0" time="14.609" errors="0">
+<testcase name="NewUserSignUpWithValidDetails" classname="NewUserTest.spec.js" time="7.143">
+</testcase>
+<testcase name="NewUserSignUpwithInvalidDetails" classname="NewUserTest.spec.js" time="7.466">
+</testcase>
+</testsuite>
+</testsuites>

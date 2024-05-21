@@ -1,0 +1,46 @@
+{
+    "url":"https://freelance-learn-automation.vercel.app/",
+    "loginUrl":"https://freelance-learn-automation.vercel.app/login",
+    "cartUrl":"https://freelance-learn-automation.vercel.app/cart",
+    "newUserValid":{
+        "username":"Arun",
+        "email":"arunrajrat2+3@gmail.com",
+        "password":"Test@123",
+        "interest":["JMETER","AWS"],
+        "gender":"Female",
+        "state":"Tamil Nadu",
+        "hobbies":"Playing"
+    },
+    "newUserInvalid":{
+        "username":"Arun",
+        "email":"arunrajrat2@gmail.com",
+        "password":"Test@123",
+        "interest":["JMETER","AWS"],
+        "gender":"Female",
+        "state":"Tamil Nadu",
+        "hobbies":"Playing"
+    },
+    "loginUserValid":{
+        "email":"arunrajrat2@gmail.com",
+        "password":"Testing@12345",
+        "courses":["SELENIUM","PLAYWRIGHT","JAVA FOR TESTER"],
+        "coursesCount":"3",
+        "enrollAddress":"123,Main St,Main",
+        "enrollPhone":"123456789"
+    },
+    "loginUserInvalid":{
+        "email":"arunrajrat123@gmail.com",
+        "password":"Testing@12345",
+        "errorMessage":"USER Email Doesn't Exist"
+    },
+    "loginWithSpecialChar":{
+        "email":"@#@$@%#%",
+        "password":"(&^(&%*%)"
+    },
+    "errorMessage":"Email already registered!"
+
+    
+
+
+
+}
